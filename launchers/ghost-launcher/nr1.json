@@ -1,0 +1,7 @@
+{
+  "schemaType": "LAUNCHER",
+  "id": "ghost-launcher",
+  "displayName": "Ghost Accounts",
+  "description": "Describe me",
+  "rootNerdletId": "ghost-nerdlet"
+}
