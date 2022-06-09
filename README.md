@@ -1,23 +1,8 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
 # nr1-ghost 
-![GitHub forks](https://img.shields.io/github/forks/newrelic-experimental/newrelic-experimental/nr1-ghost?style=social)
-![GitHub stars](https://img.shields.io/github/stars/newrelic-experimental/newrelic-experimental/nr1-ghost?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/newrelic-experimental/newrelic-experimental/nr1-ghost?style=social)
 
-![GitHub all releases](https://img.shields.io/github/downloads/newrelic-experimental/newrelic-experimental/nr1-ghost/total)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/newrelic-experimental/newrelic-experimental/nr1-ghost)
-![GitHub last commit](https://img.shields.io/github/last-commit/newrelic-experimental/newrelic-experimental/nr1-ghost)
-![GitHub Release Date](https://img.shields.io/github/release-date/newrelic-experimental/newrelic-experimental/nr1-ghost)
-
-
-![GitHub issues](https://img.shields.io/github/issues/newrelic-experimental/newrelic-experimental/nr1-ghost)
-![GitHub issues closed](https://img.shields.io/github/issues-closed/newrelic-experimental/newrelic-experimental/nr1-ghost)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic-experimental/newrelic-experimental/nr1-ghost)
-![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic-experimental/newrelic-experimental/nr1-ghost)
-
-
->This application shows you which accounts across your Organisation have no data reporting for the purposes of removing them
+This application shows you which accounts across your Organisation have no data reporting for the purposes of removing them
 
 ## Value 
 
