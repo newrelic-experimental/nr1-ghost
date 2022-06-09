@@ -1,19 +1,16 @@
 {
-  "tagline": "",
-  "details": "",
+  "tagline": "Ghost Accounts",
+  "details": "This Application shows you a list of accounts in your org that have no data reporting",
   "categoryTerms": [],
   "keywords": [],
-  "repository": "",
+  "repository": "https://github.com/newrelic-experimental/nr1-ghost",
   "whatsNew": "",
   "support": {
     "email": {
-      "address": ""
+      "address": "rdouglas@newrelic.com"
     },
     "issues": {
-      "url": ""
-    },
-    "community": {
-      "url": ""
+      "url": "https://github.com/newrelic-experimental/nr1-ghost/issues"
     }
   }
 }

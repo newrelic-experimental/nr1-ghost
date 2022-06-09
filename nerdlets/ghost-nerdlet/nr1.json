@@ -1,6 +1,6 @@
 {
   "schemaType": "NERDLET",
   "id": "ghost-nerdlet",
-  "displayName": "GhostNerdlet",
-  "description": ""
+  "displayName": "Ghost Accounts",
+  "description": "See which accounts in your Org have no data reporting for housekeeping"
 }
