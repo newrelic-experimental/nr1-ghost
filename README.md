@@ -1,58 +1,52 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
-# [Project Name] 
-![GitHub forks](https://img.shields.io/github/forks/newrelic-experimental/newrelic-experimental-FIT-template?style=social)
-![GitHub stars](https://img.shields.io/github/stars/newrelic-experimental/newrelic-experimental-FIT-template?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/newrelic-experimental/newrelic-experimental-FIT-template?style=social)
+# nr1-ghost 
+![GitHub forks](https://img.shields.io/github/forks/newrelic-experimental/newrelic-experimental/nr1-ghost?style=social)
+![GitHub stars](https://img.shields.io/github/stars/newrelic-experimental/newrelic-experimental/nr1-ghost?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/newrelic-experimental/newrelic-experimental/nr1-ghost?style=social)
 
-![GitHub all releases](https://img.shields.io/github/downloads/newrelic-experimental/newrelic-experimental-FIT-template/total)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/newrelic-experimental/newrelic-experimental-FIT-template)
-![GitHub last commit](https://img.shields.io/github/last-commit/newrelic-experimental/newrelic-experimental-FIT-template)
-![GitHub Release Date](https://img.shields.io/github/release-date/newrelic-experimental/newrelic-experimental-FIT-template)
-
-
-![GitHub issues](https://img.shields.io/github/issues/newrelic-experimental/newrelic-experimental-FIT-template)
-![GitHub issues closed](https://img.shields.io/github/issues-closed/newrelic-experimental/newrelic-experimental-FIT-template)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic-experimental/newrelic-experimental-FIT-template)
-![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic-experimental/newrelic-experimental-FIT-template)
+![GitHub all releases](https://img.shields.io/github/downloads/newrelic-experimental/newrelic-experimental/nr1-ghost/total)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/newrelic-experimental/newrelic-experimental/nr1-ghost)
+![GitHub last commit](https://img.shields.io/github/last-commit/newrelic-experimental/newrelic-experimental/nr1-ghost)
+![GitHub Release Date](https://img.shields.io/github/release-date/newrelic-experimental/newrelic-experimental/nr1-ghost)
 
 
->[Brief description - what is the project and value does it provide? How often should users expect to get releases? How is versioning set up? Where does this project want to go?]
+![GitHub issues](https://img.shields.io/github/issues/newrelic-experimental/newrelic-experimental/nr1-ghost)
+![GitHub issues closed](https://img.shields.io/github/issues-closed/newrelic-experimental/newrelic-experimental/nr1-ghost)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic-experimental/newrelic-experimental/nr1-ghost)
+![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic-experimental/newrelic-experimental/nr1-ghost)
+
+
+>This application shows you which accounts across your Organisation have no data reporting for the purposes of removing them
 
 ## Value 
 
 |Metrics | Events | Logs | Traces | Visualization | Automation |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|:white_check_mark:|:white_check_mark:|:x:|:white_check_mark:|:x:|:x:|
+|:x:|:x:|:x:|:x:|:x:|:white_check_mark:|
 
-### List of Metrics,Events,Logs,Traces 
-|Name | Type | Description |
-|:-:|:-:|:-:|
-|*metric.name* | Metric| *description*|
-|*event.name* | Event|  *description*|
-|*log.name* | Log|  *description*|
-|*trace.name*| Trace| *description*
-|---|---|---|
 
 ## Installation
 
-> [Include a step-by-step procedure on how to get your code installed. Be sure to include any third-party dependencies that need to be installed separately]
+Clone repo then:
+ - `npm install`
+ - `nr1 nerdpack:uuid -gf`
+
+To publish to your account:
+ - `nr1 nerdpack:publish`
+  
+To serve locally:
+ - `nr1 nerdpack:serve`
 
 ## Getting Started
 
->[Simple steps to start working with the software similar to a "Hello World"]
-
+Simply open the app and it will start running queries on all the accounts in New Relic that your user has access
 ## Usage
 
->[**Optional** - Include more thorough instructions on how to use the software. This section might not be needed if the Getting Started section is enough. Remove this section if it's not needed.]
+Features include:
+ - Update query period using the TimePicker
+ - Download account data as a CSV for further admin tracking
 
-## Building
-
->[**Optional** - Include this section if users will need to follow specific instructions to build the software from source. Be sure to include any third party build dependencies that need to be installed separately. Remove this section if it's not needed.]
-
-## Testing
-
->[**Optional** - Include instructions on how to run tests if we include tests with the codebase. Remove this section if it's not needed.]
 
 ## Support
 
